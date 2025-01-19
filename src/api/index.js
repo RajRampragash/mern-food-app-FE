@@ -5,7 +5,7 @@ import axios from "axios";
 //define base url 
 
 const API = axios.create({
-    baseURL : "http://localhost:5050/",
+    baseURL : "https://mern-food-app-be.onrender.com",
 });
 
 //user singup
